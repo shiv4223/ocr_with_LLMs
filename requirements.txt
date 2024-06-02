@@ -1,5 +1,5 @@
 streamlit
 Pillow
-pytesseract
 tesseract-ocr
+pytesseract
 requests
