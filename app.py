@@ -2,8 +2,7 @@ import streamlit as st
 from PIL import Image
 import pytesseract
 import requests
-import os
-os.environ['TESSERACT_CMD'] = '/usr/bin/tesseract'
+
 
 # Function to get a response from Hugging Face's inference API
 def query_huggingface_api(text):
